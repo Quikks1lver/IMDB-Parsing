@@ -43,15 +43,14 @@ def valid_movie(target_year, before_year, target_rating, film_year, film_rating)
 print(
 r"""
    _                       _   _        __
-  / \   ___      __       | | | |      |  |
+  |_|   ___      __       | | | |      |  |
   | |  |  _ \ _ /  |  ____| | | |____  |  |
-  | |  | / \   /\  | |  --- | |  --- | |  |
-  | |  | |  \_/  \ | |  |_| | |  |_| | |__|
+  | |  | / \   /\  | |   _  | |  _   | |  |
+  | |  | |  \_/  \ | |  |_| | | |_|  | |__|
   |_|  |_|        \| |______| |______| |__|
 """)
 print("Need help selecting a movie to watch? Input a few specifications for a movie,\n"
       "and a list will be generated with potential options.")
-
 year_threshold, before = get_year_threshold()
 rating_threshold = get_rating_threshold()
 
