@@ -42,12 +42,12 @@ def valid_movie(target_year, before_year, target_rating, film_year, film_rating)
 # User input and welcome screen
 print(
 r"""
-   _                       _   _        __
-  |_|   ___      __       | | | |      |  |
-  | |  |  _ \ _ /  |  ____| | | |____  |  |
-  | |  | / \   /\  | |   _  | |  _   | |  |
-  | |  | |  \_/  \ | |  |_| | | |_|  | |__|
-  |_|  |_|        \| |______| |______| |__|
+   _                       _   _        _
+  (_)   ___     ___       | | | |      | |
+  | |  |   \___/   |   ___| | | |___   | |
+  | |  |  __    _  | /   _  | |  _   \ | |
+  | |  | |  \  / | | |  (_) | | (_)  | |_|
+  |_|  |_|   \/  |_| \______| |______/ (_)
 """)
 print("Need help selecting a movie to watch? Input a few specifications for a movie,\n"
       "and a list will be generated with potential options.")
