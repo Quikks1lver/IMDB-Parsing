@@ -3,6 +3,6 @@ Web scraping program that asks the user for movie specifications of the IMDB top
 
 To run the program:
 - Ensure you have the ```Beautiful Soup```, ```pandas```, ```re```, and ```requests``` Python modules installed.
-- Ensure you have python 2 or 3 installed
+- [Ensure you have python 2 or 3 installed](https://www.python.org/downloads/)
 - Run ```python[x] imdb.py```, where ```x``` can either be ```""``` (nothing) or ```3``` (for python 3)
 - Enjoy!
